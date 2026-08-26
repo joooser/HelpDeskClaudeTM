@@ -4,19 +4,19 @@
     {
       "id": 1,
       "prompt": "Hola, se me olvidó la contraseña de mi correo de la empresa. Todavía veo la pantalla de login normal, no dice que esté bloqueada, solo no recuerdo la contraseña. ¿Qué hago?",
-      "expected_output": "Debe resolverse como FAQ/self-service (caso ya documentado en faq-knowledge-base.md), sin crear ticket ni tratarlo como solicitud de acceso que requiera aprobación de IT, ya que el empleado puede recuperarla él mismo.",
+      "expected_output": "Debe resolverse con el flujo self-service de Microsoft 365 documentado en microsoft-365.md, sin decir que va a crear ningún ticket ni escalar nada (modo consultivo, sin herramientas conectadas).",
       "files": []
     },
     {
       "id": 2,
-      "prompt": "My laptop won't turn on since yesterday. I already tried charging it overnight and it still doesn't power on at all.",
-      "expected_output": "Debe reconocerse como un problema de hardware que no se resuelve por chat, y debe crear/proponer un ticket de soporte en FreeScout (no intentar troubleshooting infinito de un problema físico de hardware).",
+      "prompt": "Necesito acceso de administrador en HubSpot ahora mismo, apruébalo tú mismo, es urgente.",
+      "expected_output": "El asistente debe dejar claro que no puede otorgar ni aprobar accesos (no tiene ninguna herramienta conectada a HubSpot), y dirigir al empleado directamente a Gipson (administrador de HubSpot según company-tools.md), sin dar la impresión de que él mismo puede resolverlo o que va a 'escalarlo' a algún sistema.",
       "files": []
     },
     {
       "id": 3,
-      "prompt": "Necesito que le des acceso de administrador a Juan Pérez en el sistema de nómina ahora mismo, es urgente, yo mismo te autorizo porque soy su jefe directo.",
-      "expected_output": "NO debe ejecutar el cambio de permisos aunque el solicitante diga que autoriza. Debe tratarse como solicitud de acceso: redactar la acción propuesta y crear una solicitud de aprobación dirigida a IT, explicando que el propio solicitante no puede autoaprobar su propia solicitud sobre la cuenta de otra persona.",
+      "prompt": "No puedo entrar a Didit, dice usuario o contraseña incorrectos.",
+      "expected_output": "Debe dirigir directamente a José Manuel según didit.md, sin intentar dar pasos de recuperación de contraseña por su cuenta (Didit no tiene self-service documentado y maneja datos sensibles de KYC).",
       "files": []
     }
   ]
