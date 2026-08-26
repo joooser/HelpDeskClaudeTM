@@ -7,9 +7,9 @@ Estas herramientas **no usan SSO de Microsoft 365** — cada una tiene su propio
 | **Breezy HR** | Reclutamiento / CRM de candidatos | José Manuel | https://app.breezy.hr/forgot-password |
 | **Microsoft Teams** | Comunicación interna (sí usa SSO de M365, es la excepción de esta tabla — ver sección Entra ID del SKILL.md) | José Manuel (admin de Entra ID) | (self-service de Microsoft 365, no aplica aquí) |
 | **MightyCall** | Llamadas (en proceso de migración a Twilio — mantener ambas mientras dure la transición) | José Manuel | https://panel.mightycall.com/MightyCall/Login/RetrieveLogin |
-| **Twilio** | Llamadas (reemplazo de MightyCall, en migración) | Completar | https://www.twilio.com/reset-password |
+| **Twilio** | Llamadas (reemplazo de MightyCall, en migración) | Ivo | https://www.twilio.com/reset-password |
 | **HubSpot** | Ventas | Gipson (o José Manuel bajo autorización de Gipson) | En app.hubspot.com/login, clic en "Forgot password" bajo el campo de contraseña |
-| **PandaDoc** | Envío y firma de contratos | Completar | En pandadoc.com → Login → "Forgot Password?" |
+| **PandaDoc** | Envío y firma de contratos | José Manuel | En pandadoc.com → Login → "Forgot Password?" |
 | **Didit** | KYC (verificación de identidad) y data vault | José Manuel | No tiene URL pública de self-service — la consola de negocio (business.didit.me) usa login por correo; si un empleado no puede entrar, siempre es ticket para José Manuel, no self-service |
 
 ## Cómo manejar solicitudes sobre estas herramientas
@@ -26,4 +26,4 @@ Nota sobre HubSpot: como el acceso lo administra Gipson (o José Manuel solo baj
 Didit maneja KYC y es el data vault de la empresa — datos sensibles de identidad. Si un empleado te pide algo relacionado con acceso a Didit o a los datos que contiene, sé especialmente conservador: nunca asumas que una solicitud es rutinaria solo porque parece un simple problema de acceso — siempre escala a ticket, y menciona explícitamente en el ticket que se trata de un sistema de KYC/datos sensibles para que quien lo revise le dé la prioridad de seguridad que corresponde.
 
 ---
-**Nota para quien mantiene este archivo:** falta confirmar quién administra PandaDoc y Twilio — completar esa columna en cuanto se sepa.
+Con esto, todos los administradores de la tabla están confirmados.
